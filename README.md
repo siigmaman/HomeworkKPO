@@ -74,6 +74,13 @@
 
 ## Запуск программы
 
+Перед запуском программы нужно скачать следующее:
+
+```
+sudo apt update
+sudo apt install golang-go build-essential nasm -y
+```
+Запуск:
 ``` 
 go run . 
 ```
